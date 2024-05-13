@@ -2,7 +2,7 @@ import { BadRequestError } from "../errors/bad-request.error";
 import logger from "../utils/logger";
 import redisClient from "./redis.service";
 
-class PortMapping {
+class PortMappingService {
     private _redisClient;
     constructor() {
         this._redisClient = redisClient;
@@ -35,5 +35,6 @@ class PortMapping {
         });
     }
 
-
 }
+
+export default new PortMappingService();
