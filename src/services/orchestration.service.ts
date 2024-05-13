@@ -27,12 +27,20 @@ class OrchestrationService {
         });
 
         try {
-            await portMappingService.setContainerToPort(container.id, availablePort);
-            await portMappingService.setPortToContainer(availablePort, container.id);
+            await portMappingService.setPortToContainer({ availablePort, containerId: container.id });
+            await portMappingService.setContainerToPort({ availablePort, containerId: container.id });
         } catch (error) {
             logger.error(`failed to bind port and container informations - ${error}`);
             await this._docker.getContainer(container.id).remove();
             throw new BadRequestError("Failed to bind port and container informations");
         }
+
+        await container.start();
+
+        return {
+            containerId: container.id
+        }
     }
 }
+
+export default new OrchestrationService();

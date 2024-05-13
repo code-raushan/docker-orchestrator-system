@@ -1,0 +1,108 @@
+[32minfo[39m 16:36:38 : Local IP - 192.168.23.19
+[32minfo[39m 16:36:38 : Connecting to Database...
+[32minfo[39m 16:36:38 : DB connected
+[32minfo[39m 16:36:38 : Redis connected...
+[32minfo[39m 16:36:38 : Master 72200 is running
+[32minfo[39m 16:36:38 : Local IP - 192.168.23.19
+[32minfo[39m 16:36:38 : Connecting to Database...
+[32minfo[39m 16:36:38 : DB connected
+[32minfo[39m 16:36:38 : Redis connected...
+[32minfo[39m 16:36:38 : Worker 72227 started
+[32minfo[39m 16:36:38 : Listening on port 9500
+[32minfo[39m 16:36:38 : Connected!
+[32minfo[39m 16:37:32 : Local IP - 192.168.23.19
+[32minfo[39m 16:37:32 : Redis connected...
+[32minfo[39m 16:37:32 : Master 72524 is running
+[32minfo[39m 16:37:32 : Local IP - 192.168.23.19
+[32minfo[39m 16:37:32 : Redis connected...
+[32minfo[39m 16:37:32 : Worker 72541 started
+[32minfo[39m 16:37:32 : Listening on port 9500
+[32minfo[39m 16:37:32 : Connected!
+[31merror[39m 16:38:59 : route: /containers, errorMsg: Route not found, rayId: RdSM8lcHLi5goP6nfo
+[32minfo[39m 16:39:15 : Local IP - 192.168.23.19
+[32minfo[39m 16:39:15 : Redis connected...
+[32minfo[39m 16:39:15 : Master 73098 is running
+[32minfo[39m 16:39:15 : Local IP - 192.168.23.19
+[32minfo[39m 16:39:15 : Redis connected...
+[32minfo[39m 16:39:15 : Worker 73099 started
+[32minfo[39m 16:39:15 : Listening on port 9500
+[32minfo[39m 16:39:15 : Connected!
+[31merror[39m 16:39:28 : IP - ::ffff:127.0.0.1, UserId - undefined, Path - /, Body - {"image":"alpine"}, Params - {}, Query - {} , Message -  {"reason":"no such container","statusCode":404,"json":{"message":"No such image: alpine:latest"}}, Err - Error: (HTTP code 404) no such container - No such image: alpine:latest 
+[32minfo[39m 16:40:20 : Local IP - 192.168.23.19
+[32minfo[39m 16:40:20 : Redis connected...
+[32minfo[39m 16:40:20 : Master 73538 is running
+[32minfo[39m 16:40:20 : Local IP - 192.168.23.19
+[32minfo[39m 16:40:20 : Redis connected...
+[32minfo[39m 16:40:20 : Worker 73539 started
+[32minfo[39m 16:40:20 : Listening on port 9500
+[32minfo[39m 16:40:20 : Connected!
+[31merror[39m 16:43:51 : Failed to connect with redis  Socket closed unexpectedly
+[31merror[39m 16:43:51 : Failed to connect with redis  Socket closed unexpectedly
+[31merror[39m 16:43:51 : Failed to connect with redis 
+[31merror[39m 16:43:51 : Failed to connect with redis 
+[31merror[39m 16:43:51 : Failed to connect with redis 
+[31merror[39m 16:43:51 : Failed to connect with redis 
+[31merror[39m 16:43:51 : Failed to connect with redis 
+[31merror[39m 16:43:51 : Failed to connect with redis 
+[31merror[39m 16:43:51 : Failed to connect with redis 
+[31merror[39m 16:43:51 : Failed to connect with redis 
+[31merror[39m 16:43:52 : Failed to connect with redis 
+[31merror[39m 16:43:52 : Failed to connect with redis 
+[31merror[39m 16:43:52 : Failed to connect with redis 
+[31merror[39m 16:43:52 : Failed to connect with redis 
+[31merror[39m 16:43:52 : Failed to connect with redis 
+[31merror[39m 16:43:52 : Failed to connect with redis 
+[31merror[39m 16:43:52 : Failed to connect with redis 
+[31merror[39m 16:43:52 : Failed to connect with redis 
+[31merror[39m 16:43:53 : Failed to connect with redis 
+[31merror[39m 16:43:53 : Failed to connect with redis 
+[31merror[39m 16:43:53 : Failed to connect with redis 
+[31merror[39m 16:43:53 : Failed to connect with redis 
+[31merror[39m 16:43:54 : Failed to connect with redis 
+[31merror[39m 16:43:54 : Failed to connect with redis 
+[31merror[39m 16:43:54 : Failed to connect with redis 
+[31merror[39m 16:43:54 : Failed to connect with redis 
+[31merror[39m 16:43:55 : Failed to connect with redis 
+[31merror[39m 16:43:55 : Failed to connect with redis 
+[31merror[39m 16:43:55 : Failed to connect with redis 
+[31merror[39m 16:43:55 : Failed to connect with redis 
+[31merror[39m 16:43:56 : Failed to connect with redis 
+[31merror[39m 16:43:56 : Failed to connect with redis 
+[31merror[39m 16:43:56 : Failed to connect with redis 
+[31merror[39m 16:43:56 : Failed to connect with redis 
+[31merror[39m 16:43:57 : Failed to connect with redis 
+[31merror[39m 16:43:57 : Failed to connect with redis 
+[31merror[39m 16:43:57 : Failed to connect with redis 
+[31merror[39m 16:43:57 : Failed to connect with redis 
+[31merror[39m 16:43:58 : Failed to connect with redis 
+[31merror[39m 16:43:58 : Failed to connect with redis 
+[31merror[39m 16:43:58 : Failed to connect with redis 
+[31merror[39m 16:43:58 : Failed to connect with redis 
+[31merror[39m 16:43:59 : Failed to connect with redis 
+[31merror[39m 16:43:59 : Failed to connect with redis 
+[32minfo[39m 16:43:59 : Redis connected...
+[32minfo[39m 16:43:59 : Redis connected...
+[32minfo[39m 16:45:26 : Local IP - 192.168.23.19
+[32minfo[39m 16:45:26 : Redis connected...
+[32minfo[39m 16:45:26 : Master 75352 is running
+[32minfo[39m 16:45:26 : Local IP - 192.168.23.19
+[32minfo[39m 16:45:26 : Redis connected...
+[32minfo[39m 16:45:26 : Worker 75367 started
+[32minfo[39m 16:45:26 : Listening on port 9500
+[32minfo[39m 16:45:26 : Connected!
+[32minfo[39m 16:48:33 : Local IP - 192.168.23.19
+[32minfo[39m 16:48:33 : Redis connected...
+[32minfo[39m 16:48:33 : Master 76398 is running
+[32minfo[39m 16:48:34 : Local IP - 192.168.23.19
+[32minfo[39m 16:48:34 : Redis connected...
+[32minfo[39m 16:48:34 : Worker 76399 started
+[32minfo[39m 16:48:34 : Listening on port 9500
+[32minfo[39m 16:48:34 : Connected!
+[32minfo[39m 16:59:35 : Local IP - 192.168.23.19
+[32minfo[39m 16:59:35 : Redis connected...
+[32minfo[39m 16:59:35 : Master 80081 is running
+[32minfo[39m 16:59:35 : Local IP - 192.168.23.19
+[32minfo[39m 16:59:35 : Redis connected...
+[32minfo[39m 16:59:35 : Worker 80087 started
+[32minfo[39m 16:59:35 : Listening on port 9500
+[32minfo[39m 16:59:35 : Connected!

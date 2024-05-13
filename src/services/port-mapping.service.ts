@@ -9,7 +9,6 @@ class PortMappingService {
     }
 
     async availablePort() {
-        await this._redisClient.connect();
         for (let i = 8000; i < 9000; i++) {
             if ((await this._redisClient.hGet("portToContainer", String(i)))) continue;
             return String(i);
@@ -17,19 +16,19 @@ class PortMappingService {
         throw new BadRequestError("No available port");
     }
 
-    async setPortToContainer(containerId: string, availablePort: string) {
-        await this._redisClient.connect();
+    async setPortToContainer(params: { containerId: string, availablePort: string }) {
+        const { containerId, availablePort } = params;
+
         await this._redisClient.hSet("portToContainer", availablePort, containerId).catch(async (err) => {
-            await this._redisClient.disconnect();
             logger.error(`failed to assign container id to the available port - ${err}`)
             throw new BadRequestError("failed to assign container id to the available port");
         });
     }
 
-    async setContainerToPort(containerId: string, availablePort: string) {
-        await this._redisClient.connect();
+    async setContainerToPort(params: { containerId: string, availablePort: string }) {
+        const { containerId, availablePort } = params;
+
         await this._redisClient.hSet("containerToPort", containerId, availablePort).catch(async (err) => {
-            await this._redisClient.disconnect();
             logger.error(`failed to assign available port to the container id - ${err}`)
             throw new BadRequestError("failed to assign available port to the container id");
         });
